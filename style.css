@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  color: #1f2933;
+  line-height: 1.6;
+  background-color: #ffffff;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* Header */
+.header {
+  background: #0a2540;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.tagline {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+/* Hero */
+.hero {
+  padding: 70px 0;
+  background: #f5f7fa;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  max-width: 700px;
+  margin: auto;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 14px 28px;
+  background: #0a2540;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background: #143b63;
+}
+
+/* Sections */
+.services,
+.who,
+.about,
+.contact {
+  padding: 60px 0;
+}
+
+.services h3,
+.who h3,
+.about h3,
+.contact h3 {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.services ul {
+  list-style: none;
+}
+
+.services li {
+  margin-bottom: 10px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.services li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #0a2540;
+}
+
+.who p,
+.about p,
+.contact p {
+  max-width: 700px;
+}
+
+/* Contact */
+.email a {
+  color: #0a2540;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.email a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+  background: #0a2540;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+}
